@@ -1,6 +1,9 @@
 # python-time-based-brute-force
 Time based brute force attack python script
 
+## Note:
+I attempted to update the script to use /usr/bin/time to cut the latency down and get more accurate results however I ran into a number of issues getting /usr/bin/time to run correctly using subprocess or os libraries so I came up with the current solution that still satisifies the time-based brute force attack. 
+
 ## Usage:
 python test.py <path to file to brute force>
 *  example: k0ncepts:~$ python3 /home/k0ncepts/Desktop/vault.o
